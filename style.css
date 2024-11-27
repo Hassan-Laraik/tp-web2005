@@ -1,0 +1,136 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing:border-box;
+     font-family : Verdana;
+}
+
+ body{
+  background-color: rgb(226, 227, 224);
+ }
+#container{
+  
+    width: 90%;
+    height: 150vh;
+    margin: 0 auto;
+
+}
+
+#header{
+    height: 7.5%;
+    padding-top: 1.5vh;
+    background-color: rgb(72, 48, 177);
+}
+
+#coordonnees{
+  padding-top: 5vh;
+  height: 15%;
+
+    background-color: rgb(255, 255, 255);
+    
+}
+
+#details{
+   margin: 5px 0;
+    height: 60%;
+    background-color: white;
+    overflow:scroll;
+}
+#sommation{
+height: 15%;
+margin: 5px 0 ;
+}
+
+#header h1{
+  /*text-align: center;*/
+  padding-left: 15%; 
+  color : white;
+  font-size: 3.5em;
+}
+
+#expiditeur{
+  padding-top: 5px;
+  padding-left: 5px;
+  width: 30%;
+  height: 100%;
+  float: left;
+}
+
+#expedition{
+  padding-top: 5px;
+  padding-left: 5px;
+  width: 30%;
+  height: 100%;
+  float: left;
+
+}
+#logo{
+  width: 15%;
+  height: 100%;
+  float: left;
+}
+
+#logo img{
+  width: 50%;
+  height: 100px;
+  margin-left: 5px;
+}
+
+#details table {
+ width: 100%;
+} 
+#details table tr#table-entete {
+  background-color: rgb(72, 48, 177);
+  color: white;
+  height: 30px;
+ }
+ #details table td {
+  display: table-cell;
+  height: 20px;
+  background-color: rgb(127, 117, 171);
+  color: white;
+ }
+ 
+ #sommation table {
+  float : right;
+  width: 30%;
+  height: 100%; 
+ }
+ #sommation table td {
+  padding-left: 5px;
+  width: 50%;
+  display: table-cell;
+  background-color: rgb(72, 48, 177);
+  font-size: 1.1em;
+  font-weight: 600;
+  color : white
+ }
+
+ #footer{
+  height: 20vh;
+  background-color: rgb(163, 161, 171);
+  margin-bottom: 10px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* header
+expedition
+expiditeur
+
+ width: 60%;
+   height: 100%;
+   color: brown;
+   background-color: blueviolet;
+   float: left;
+*/
